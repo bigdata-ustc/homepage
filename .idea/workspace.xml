@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4857a097-152d-4ad9-973f-3f81a219278c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_6/admission.html" afterPath="$PROJECT_DIR$/class_6/admission.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_6/overview.html" afterPath="$PROJECT_DIR$/class_6/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_6/prize.html" afterPath="$PROJECT_DIR$/class_6/prize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_7/annual_report.html" afterPath="$PROJECT_DIR$/class_7/annual_report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_7/files.html" afterPath="$PROJECT_DIR$/class_7/files.html" />
     </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,14 +26,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admission.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admission.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_6/admission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+            <state relative-caret-position="501">
+              <caret line="235" column="11" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#aside#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1498196628000" expanded="true" signature="1680:1694" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annual_report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_7/annual_report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="204" column="22" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
+              <folding>
+                <marker date="1498196799000" expanded="true" signature="1680:1694" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paper.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_5/paper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="661" column="26" selection-start-line="216" selection-start-column="20" selection-end-line="661" selection-end-column="26" />
+              <folding>
+                <marker date="1498195520000" expanded="true" signature="1680:1694" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="files.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_7/files.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+              <folding>
+                <marker date="1498197324000" expanded="true" signature="1680:1694" ph="..." />
               </folding>
             </state>
           </provider>
@@ -189,6 +224,8 @@
         <option value="$PROJECT_DIR$/class_6/overview.html" />
         <option value="$PROJECT_DIR$/class_6/prize.html" />
         <option value="$PROJECT_DIR$/class_6/admission.html" />
+        <option value="$PROJECT_DIR$/class_7/annual_report.html" />
+        <option value="$PROJECT_DIR$/class_7/files.html" />
       </list>
     </option>
   </component>
@@ -451,18 +488,18 @@
       <option name="presentableId" value="Default" />
       <updated>1498118056572</updated>
       <workItem from="1498118059096" duration="244000" />
-      <workItem from="1498126246200" duration="11241000" />
+      <workItem from="1498126246200" duration="11880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11485000" />
+    <option name="totallyTimeSpent" value="12124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1400" height="757" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13071428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13071428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -975,16 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_5/paper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="213" column="36" selection-start-line="213" selection-start-column="16" selection-end-line="213" selection-end-column="36" />
-          <folding>
-            <marker date="1498195520000" expanded="true" signature="1680:1694" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class_5/prize.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1034,16 +1061,6 @@
           <caret line="202" column="29" selection-start-line="202" selection-start-column="29" selection-end-line="202" selection-end-column="29" />
           <folding>
             <marker date="1498196311000" expanded="true" signature="1680:1694" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_6/overview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="203" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-          <folding>
-            <marker date="1498196283000" expanded="true" signature="1680:1694" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1111,11 +1128,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class_6/admission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+        <state relative-caret-position="501">
+          <caret line="235" column="11" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#aside#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1498196628000" expanded="true" signature="1680:1694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_6/overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="203" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
+          <folding>
+            <marker date="1498196283000" expanded="true" signature="1680:1694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_7/annual_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="204" column="22" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
+          <folding>
+            <marker date="1498196799000" expanded="true" signature="1680:1694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_5/paper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="661" column="26" selection-start-line="216" selection-start-column="20" selection-end-line="661" selection-end-column="26" />
+          <folding>
+            <marker date="1498195520000" expanded="true" signature="1680:1694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_7/files.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding>
+            <marker date="1498197324000" expanded="true" signature="1680:1694" ph="..." />
           </folding>
         </state>
       </provider>

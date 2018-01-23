@@ -139,7 +139,7 @@
                                 <li><a href="../../class_4/research_projects.html">科研项目</a></li>
                             </ul>
                         </li>
-                        <li role="presentation" class="nav-current">
+                        <li role="presentation" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 科研成果
                                 <b class="caret"></b>
@@ -149,7 +149,15 @@
                                 <li><a href="../../class_5/paper.html">发表论文</a></li>
                                 <li><a href="../../class_5/monograph.html">出版专著</a></li>
                                 <li><a href="../../class_5/prize.html">获得奖项</a></li>
-                                <li><a href="../../class_5/contextaware.html">情境数据挖掘与应用</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="nav-current">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                代表性项目
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="width: inherit">
+                                <li><a href="../../class_6/contextaware.html">情境数据挖掘与应用</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -158,9 +166,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_6/overview.html">人才培养概况</a></li>
-                                <li><a href="../../class_6/prize.html">获奖情况</a></li>
-                                <li><a href="../../class_6/admission.html">招生招聘</a></li>
+                                <li><a href="../../class_7/overview.html">人才培养概况</a></li>
+                                <li><a href="../../class_7/prize.html">获奖情况</a></li>
+                                <li><a href="../../class_7/admission.html">招生招聘</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -169,8 +177,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_7/files.html">文件材料</a></li>
-                                <li><a href="../../class_7/annual_report.html">年报</a></li>
+                                <li><a href="../../class_8/files.html">文件材料</a></li>
+                                <li><a href="../../class_8/annual_report.html">年报</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -188,27 +196,14 @@
         <div class="row">
             <aside class="col-sm-3 sidebar">
                 <div class="widget">
-                    <h4 class="title">科研成果</h4>
+                    <h4 class="title">代表性项目</h4>
                     <table class="table table-hover" >
                         <thead>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><a href="../achievement.html" >研究成果概览</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../paper.html">发表论文</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../monograph.html">出版专著</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../prize.html">获得奖项</a></td>
-                        </tr>
-                         <tr>
                             <td><a href="../contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -217,23 +212,23 @@
 
                 <article id=97 class="post">
                     <div class="post-head">
-                        <h4 class="title">用户消费行为与社交行为的联合演化研究</h4>
+                        <h4 class="title">信息传播活跃度最大化研究</h4>
                     </div>
                     <div class="sidebar" >
                         <p>
-                            研究组针对社交平台上的用户消费行为，尝试利用社交理论研究社交平台上的相互影响以及演化过程。在线社交服务平台为具有相同偏好的用户构建了相互交流的渠道。在这些社交平台上，用户可以得到社交好友分享的消费信息。一般而言，社交平台上存在如下两种普遍的用户行为：用户—商品之间的消费行为以及用户—用户之间的社交链接行为。用户的消费行为反映了用户的消费偏好，而其消费偏好又有可能受到社交好友的影响。因此，发现用户消费偏好以及构建用户之间新的社交好友是社交平台上两个重要的研究任务。然而，传统的方法要么将这两个问题孤立看待要么静态地审视这两个问题，并没用考虑时间因素从一个相互演化的角度同时考虑这两个问题之间的影响关系。基于此，研究组尝试利用社交理论研究社交平台上的相互影响以及演化过程。具体而言，研究组提出了一个概率方法来融合这些社交影响以及同质性理论，从而联合建模用户在社交平台上的时序行为。最终在两个真实数据集上的实验结果验证了研究组提出的模型具有很好的性能。
+                            针对信息传播中该选择哪些用户作为初始用户去传播话题的问题，研究组将该问题形式化为活跃度最大化问题：给定一个信息传播网络，目标是在给定预算下找到一组最优的种子用户，以使得从这些用户开始传播信息可以让信息传播者之间的交互活跃度最大化。
                         </p>
                         <p>
-                            研究组提出了用户消费行为和社交链接行为演化联合预测模型。首先，在每个用户时间段t上对每个用户a定义一个时间相关的潜在因子，描述用户在当前时刻的潜在消费兴趣。该消费兴趣由两种因素决定：一方面，用户根据自己的历史兴趣偏好选择商品进行消费，该因素是协同过滤算法的基础。另一方面，在社交情景下，其社交好友将影响该用户在后续的消费行为。
+                            在社交网络中传播信息时，往往并不是传播信息而已，而是为了让传播的信息在社交网络造成轰动效应，具有很高的活跃度。那么一个有意思的问题是，在预算有限的情况下该选择哪些用户作为初始用户去传播这个话题，从而使其成为热门的话题？研究组将该问题形式化为活跃度最大化问题：给定一个信息传播网络，网络之间每条边记录用户之间的交互强度，目标是在给定预算下找到一组最优的种子用户，以使得从这些用户开始传播信息可以让信息传播者之间的交互活跃度最大化。进一步研究发现活跃度最大化问题与传统的影响力最大化问题很不相同，为此需要新的方法去解决活跃度最大化问题。研究组提出了基于采样的三明治算法，最后，在四个真实数据集上验证了提出的算法。实验结果证实了提出的算法的有效性和高效性。
                         </p>
                         <p>
-                            与用户消费行为决定类似，用户a在t时刻的社交链接行为也由两种因素决定：一方面，用户a与候选用户b在社交网络结构中距离比较近，从而容易建立链接，该因素可以转化为比较网络结构中节点的相似度。另一方面，用户a发现候选用户b与其具有相似的历史消费偏好，则其很可能将和b建立链接，该因素也是社交网络中同质性理论的基础。通过融合这两种因素可以进行社交链接行为的预测。
+                            针对此问题，研究组讨论了该问题的计算性质：活跃度最大化问题在IC和LT传播模型下都是NP难的，给定S的活跃度计算是#p难的，活跃度函数是不具有子模性质的，进一步该问题多项式时间是没有近似解的。为了获得此问题的有保证的近似解，研究组定义了活跃度函数的上界和下界函数，并证明了活跃度上界和下界函数是具有子模性质的，从而可以利用三明治算法求解。
                         </p>
                         <p>
-                            综合考虑用户兴趣特征以及社交链接相互之间的影响关系可以依次对下一时刻用户的兴趣特征及新的链接关系作出预测。具体地，研究组提出了如下演化联合预测方法的图模型:
+                            <b>详细工作参见:</b>
                         </p>
-                        <p align="center">
-                        <img width=60% src="../work_images/work2_1.png" style="margin-top:30px;margin-bottom: 30px">
+                        <p>
+                            Zhefeng Wang, Yu Yang, Jian Pei, Lingyang Chu and <u><b>Enhong Chen</b></u>*, <b>Activity Maximization by Effective Information Diffusion in Social Networks</b>, <i>IEEE Transactions on Knowledge and Data Engineering <b>(IEEE TKDE)</b></i>, 29(11): 2374-2387, November 2017.
                         </p>
                     </div>
                 </article>

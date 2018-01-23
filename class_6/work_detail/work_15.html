@@ -139,7 +139,7 @@
                                 <li><a href="../../class_4/research_projects.html">科研项目</a></li>
                             </ul>
                         </li>
-                        <li role="presentation" class="nav-current">
+                        <li role="presentation" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 科研成果
                                 <b class="caret"></b>
@@ -149,7 +149,15 @@
                                 <li><a href="../../class_5/paper.html">发表论文</a></li>
                                 <li><a href="../../class_5/monograph.html">出版专著</a></li>
                                 <li><a href="../../class_5/prize.html">获得奖项</a></li>
-                                <li><a href="../../class_5/contextaware.html">情境数据挖掘与应用</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="nav-current">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                代表性项目
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="width: inherit">
+                                <li><a href="../../class_6/contextaware.html">情境数据挖掘与应用</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -158,9 +166,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_6/overview.html">人才培养概况</a></li>
-                                <li><a href="../../class_6/prize.html">获奖情况</a></li>
-                                <li><a href="../../class_6/admission.html">招生招聘</a></li>
+                                <li><a href="../../class_7/overview.html">人才培养概况</a></li>
+                                <li><a href="../../class_7/prize.html">获奖情况</a></li>
+                                <li><a href="../../class_7/admission.html">招生招聘</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -169,8 +177,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_7/files.html">文件材料</a></li>
-                                <li><a href="../../class_7/annual_report.html">年报</a></li>
+                                <li><a href="../../class_8/files.html">文件材料</a></li>
+                                <li><a href="../../class_8/annual_report.html">年报</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -188,27 +196,14 @@
         <div class="row">
             <aside class="col-sm-3 sidebar">
                 <div class="widget">
-                    <h4 class="title">科研成果</h4>
+                    <h4 class="title">代表性项目</h4>
                     <table class="table table-hover" >
                         <thead>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><a href="../achievement.html" >研究成果概览</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../paper.html">发表论文</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../monograph.html">出版专著</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../prize.html">获得奖项</a></td>
-                        </tr>
-                         <tr>
                             <td><a href="../contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -217,14 +212,29 @@
 
                 <article id=97 class="post">
                     <div class="post-head">
-                        <h4 class="title">基于线性特征转化的增量矩阵分解方法</h4>
+                        <h4 class="title">众筹项目设计备选产品的数量问题</h4>
                     </div>
                     <div class="sidebar" >
                         <p>
-                            研究组提出了一种通用的线性特征转化框架来解决增量矩阵分解问题。矩阵分解算法由于其准确度高、计算资源消耗低及易于实现的优势，在真实的推荐系统中发挥着重要的作用。事实上，大部分的矩阵分解算法都是基于批处理的，而这种方法在结束训练之后如果继续更新模型参数会需要大量的计算。因此，如何设计一个能够增量地更新矩阵分解模型参数的方法以适应真实场景下的在线模式是一个亟待解决的问题。
+                            众筹（crowdfunding），即大众筹资或群众筹资，是兴起于国外的一种新兴投资产品。众筹具有低门槛、多样性、依靠大众力量、注重创意的特征，是指一种向群众募资，以支持发起的个人或组织的行为。近年来，国内也有不少众筹平台兴起，如淘宝、京东等互联网公司也纷纷开展了自己的众筹业务。
                         </p>
                         <p>
-                            为了解决上述问题，一些先期的研究工作提出了许多增量矩阵分解算法。然而，这些方法或者只能应用于特定的矩阵分解算法，或者必须要存储跟基于批处理的模型数量差不多的评分数据，不是真正意义上的增量方法，或者难以分析算法的误差界限。为了应对上述挑战，研究组提出了一种通用的线性特征转化（Linear Feature Transformation （LFT））框架来解决增量矩阵分解问题。这种方法只需要训练一个小规模的特征转化矩阵以捕捉有新的数据流时模型参数的变化，同时只需要存储很少的采样数据来训练这个特征转化矩阵，而且大部分增量的数据在很短的时间即可以被丢弃而不需要存储很久。
+                            每个众筹项目由多个不等数量的备选产品组成，每个备选产品的价格也各不相同，分别对应不同等级的投资。由于筹资项目必须在发起人预设的时间内达到或超过目标金额才算成功，否则无论之前已经筹得多少款项，都会无效化，如何恰当的设计各个备选产品的数量就成了一项非常有价值的问题。
+                        </p>
+                        <p>
+                            针对这个现状，研究组在基于众筹平台做产品供给数量的优化问题上，主要采用投资组合理论与多任务学习相结合的方法，构建收益和风险函数，以最大化收益和最小化风险作为优化目标。研究组所涉及的产品供给优化流程图如下所示，其中左边的部分为离线操作，右边的部分则为在线操作，不同任务之间通过多任务学习的方法进行连接。
+                        </p>
+                         <p align="center">
+                            <img width=60% src="../work_images/work15_1.png" style="margin-top:30px;margin-bottom: 30px">
+                        </p>
+                        <p>
+                            为了求解研究组所提出的模型，采用投资数量和供给数量交替优化的方法，最后得到一个新项目下产品的供给数量推荐。
+                        </p>
+                        <p>
+                            <b>详细工作参见:</b>
+                        </p>
+                        <p>
+                            Qi Liu, Guifeng Wang, Hongke Zhao, Chuanren Liu, Tong Xu, <u><b>Enhong Chen</b></u>*, <b>Enhancing Campaign Design in Crowdfunding: A Product Supply Optimization Perspective</b>, <i>The 26th International Joint Conference on Artificial Intelligence <b>(IJCAI'2017)</b></i>: 695-702, Melbourne, Australia, August 19-25, 2017.
                         </p>
                     </div>
                 </article>

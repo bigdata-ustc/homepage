@@ -139,7 +139,7 @@
                                 <li><a href="../../class_4/research_projects.html">科研项目</a></li>
                             </ul>
                         </li>
-                        <li role="presentation" class="nav-current">
+                        <li role="presentation" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 科研成果
                                 <b class="caret"></b>
@@ -149,7 +149,15 @@
                                 <li><a href="../../class_5/paper.html">发表论文</a></li>
                                 <li><a href="../../class_5/monograph.html">出版专著</a></li>
                                 <li><a href="../../class_5/prize.html">获得奖项</a></li>
-                                <li><a href="../../class_5/contextaware.html">情境数据挖掘与应用</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="nav-current">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                代表性项目
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="width: inherit">
+                                <li><a href="../../class_6/contextaware.html">情境数据挖掘与应用</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -158,9 +166,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_6/overview.html">人才培养概况</a></li>
-                                <li><a href="../../class_6/prize.html">获奖情况</a></li>
-                                <li><a href="../../class_6/admission.html">招生招聘</a></li>
+                                <li><a href="../../class_7/overview.html">人才培养概况</a></li>
+                                <li><a href="../../class_7/prize.html">获奖情况</a></li>
+                                <li><a href="../../class_7/admission.html">招生招聘</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -169,8 +177,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_7/files.html">文件材料</a></li>
-                                <li><a href="../../class_7/annual_report.html">年报</a></li>
+                                <li><a href="../../class_8/files.html">文件材料</a></li>
+                                <li><a href="../../class_8/annual_report.html">年报</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -188,27 +196,14 @@
         <div class="row">
             <aside class="col-sm-3 sidebar">
                 <div class="widget">
-                    <h4 class="title">科研成果</h4>
+                    <h4 class="title">代表性项目</h4>
                     <table class="table table-hover" >
                         <thead>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><a href="../achievement.html" >研究成果概览</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../paper.html">发表论文</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../monograph.html">出版专著</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../prize.html">获得奖项</a></td>
-                        </tr>
-                         <tr>
                             <td><a href="../contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -217,17 +212,26 @@
 
                 <article id=97 class="post">
                     <div class="post-head">
-                        <h4 class="title">信息覆盖度最大化问题研究</h4>
+                        <h4 class="title">低秩矩阵收缩阈值与权值再分配算法</h4>
                     </div>
                     <div class="sidebar" >
                         <p>
-                            针对信息覆盖度最大化问题，研究组考虑社交网络中那些没有参与信息传播的用户。探讨了信息度最大化问题的一系列性质，并设计了一种基于节点度数的启发式算法。
+                            针对低秩矩阵近似问题，非凸优化具有很高的复杂性，设计快速高效的优化算法去求解非凸优化问题是一项巨大的挑战。研究组使用非凸加权核范数作为低秩惩罚项，并提出一种解决低秩矩阵近似问题统一非凸的框架，提出一种迭代收缩阈值与权值再分配算法，来求解上述非凸的低秩矩阵近似问题。
                         </p>
                         <p>
-                            近年来，许多研究者基于社交网络中的影响力传播特性开展了一系列相关工作，并且取得了实际的非常显著的效果，比如病毒营销案例；目前大部分影响力最大化问题的相关工作都致力于寻找一组用户或者一组用户群体，使其在网络中的整体影响力是最大的。然而，传统的影响力最大化问题仅仅局限最大化参与传播的用户，并未考虑社交网络中那些没有参与信息传播的用户上。实际上，信息传播过程中，网络中存在两类非激活节点。举一个简单的例子，某个用户在微博上发布了一条微博，一些用户会转发这条微博，另一些用户则不会。但是这些没有转发微博的用户中，有很多用户都是知晓这条微博的，因为他关注的用户转发了，另外一些用户则是完全不知道这条微博。这两种用户是不同的，前者实际上是作为信息的感知者存在的，但是在传统的传播模型和影响力最大化问题中，这两类用户都被简单地当做非激活节点而忽略。因此，为了更好地建模信息传播的覆盖范围，需要同时考虑激活节点和信息感知节点。
+                            将向量稀疏优化中的思想推广到矩阵上，就是使用加权核范数，即矩阵所有奇异值的加权和，来近似矩阵的秩，从而更好地保证低秩。由于权值可以有很多变化，因此上述框架是一个更一般性的、统一的、直观的低秩矩阵近似框架。为了保证低秩，只需要设计一种合理的策略，使得大奇异值的权值足够小，同时小奇异值的权值足够大，便可以保留那些大的奇异值。因为大奇异值刻画了矩阵的主要性质，因此使用加权核范数能够得到关于矩阵秩的一个几乎无偏的估计。为了完成以上目标，研究组提出了迭代收缩阈值与权值再分配算法，英文全称为 Iterative Shrinkage Thresholding and Reweighted Algorithm，简称为ISTRA。
                         </p>
                         <p>
-                            研究者探讨了信息度最大化问题的一系列性质。研究者证明了信息度最大化问题是NP难解的，同时又证明了计算信息覆盖度F是#P难的。幸运的是在证明了覆盖度函数是具有子模性质后，贪心算法将获得至少1-1/e的近似解。为了进一步提高算法的性能，研究组进一步设计了一种基于节点度数的启发式算法。具体地，研究组首先发现一个节点对目标函数的贡献极大的依赖于它的邻居节点的个数，因为一个节点的邻居节点越多，当它被激活时带来的收益也越高。接着当一个邻居节点被选中时，它的邻居都会被通知到信息从而成为信息感知节点，这会导致有效节点数量的降低，这个启发意味着我们可以通过动态的调整节点的有效邻居数量来动态的提高算法的性能。
+                            值得注意的是，研究组提出的求解低秩矩阵近似问题的统一框架是十分灵活的。根据不同的低秩矩阵近似问题，或者不同质量的数据，可以灵活地设计权值再分配策略。所有这些变体都满足统一的非凸矩阵近似框架，因而都可以用所提出的ISTRA来求解。下图为文本覆盖情况下不同算法进行图像恢复的效果展示:
+                        </p>
+                         <p align="center">
+                            <img width=60% src="../work_images/work11_1.png" style="margin-top:30px;margin-bottom: 30px">
+                        </p>
+                        <p>
+                            <b>详细工作参见:</b>
+                        </p>
+                        <p>
+                            Xiaowei Zhong, Linli Xu, Yitan Li, Zhiyuan Liu, <u><b>Enhong Chen</b></u>, <b>A Nonconvex Relaxation Approach for Rank Minimization Problems</b>, <i>The 29th AAAI Conference on Artificial Intelligence <b>(AAAI'2015)</b></i>: 1980-1986, Austin, Texas USA, January 25–29, 2015.
                         </p>
                     </div>
                 </article>

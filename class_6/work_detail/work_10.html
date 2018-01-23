@@ -139,7 +139,7 @@
                                 <li><a href="../../class_4/research_projects.html">科研项目</a></li>
                             </ul>
                         </li>
-                        <li role="presentation" class="nav-current">
+                        <li role="presentation" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 科研成果
                                 <b class="caret"></b>
@@ -149,7 +149,15 @@
                                 <li><a href="../../class_5/paper.html">发表论文</a></li>
                                 <li><a href="../../class_5/monograph.html">出版专著</a></li>
                                 <li><a href="../../class_5/prize.html">获得奖项</a></li>
-                                <li><a href="../../class_5/contextaware.html">情境数据挖掘与应用</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="nav-current">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                代表性项目
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="width: inherit">
+                                <li><a href="../../class_6/contextaware.html">情境数据挖掘与应用</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -158,9 +166,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_6/overview.html">人才培养概况</a></li>
-                                <li><a href="../../class_6/prize.html">获奖情况</a></li>
-                                <li><a href="../../class_6/admission.html">招生招聘</a></li>
+                                <li><a href="../../class_7/overview.html">人才培养概况</a></li>
+                                <li><a href="../../class_7/prize.html">获奖情况</a></li>
+                                <li><a href="../../class_7/admission.html">招生招聘</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -169,8 +177,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_7/files.html">文件材料</a></li>
-                                <li><a href="../../class_7/annual_report.html">年报</a></li>
+                                <li><a href="../../class_8/files.html">文件材料</a></li>
+                                <li><a href="../../class_8/annual_report.html">年报</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -188,27 +196,14 @@
         <div class="row">
             <aside class="col-sm-3 sidebar">
                 <div class="widget">
-                    <h4 class="title">科研成果</h4>
+                    <h4 class="title">代表性项目</h4>
                     <table class="table table-hover" >
                         <thead>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><a href="../achievement.html" >研究成果概览</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../paper.html">发表论文</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../monograph.html">出版专著</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../prize.html">获得奖项</a></td>
-                        </tr>
-                         <tr>
                             <td><a href="../contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -217,14 +212,38 @@
 
                 <article id=97 class="post">
                     <div class="post-head">
-                        <h4 class="title">P2P借贷中选择贷款产品的多目标方法</h4>
+                        <h4 class="title">参数对矩阵规模不变的矩阵分解方法</h4>
                     </div>
                     <div class="sidebar" >
                         <p>
-                            网络小额贷款平台（P2P lending）是近年来兴起的一项网上金融业务，目前在国外较为流行，最近几年国内也有一些企业开展了相关的金融服务，如借贷宝、人人贷等。具体的，P2P是一种个人通过第三方平台在收取一定费用的前提下向其他个人提供小额借贷的金融模式。这种新兴的借款模式具有高回报率，高灵活性，低门槛等优点，受到不少投资用户的青睐。然而，由于P2P属于信用贷款，缺乏足够的安全保障，P2P贷款同样具有极大的风险。因此，如何帮助出借人更好地选择贷款产品，是一个非常有价值的研究问题。
+                            参数调节对于大规模矩阵分解问题来说是非常耗时的。研究组提出了参数对矩阵规模不变的矩阵分解方法来减轻在大规模矩阵分解中所面临的参数调节困难问题。
                         </p>
                         <p>
-                            研究组主要研究在网络小额贷款平台中帮助出借人自动选择贷款产品组合的问题。在网路小额贷款平台中，出借人可以自由地选择贷款产品。按照小额贷款平台的交易规则，出借人在选择贷款产品的过程中，往往有多方面考虑的目标。例如，尽量小的贷款违约概率、尽量高的贷款产品成功融资概率、以及尽量高的出借中标概率。同时，很多平台鼓励出借人同时选择多个贷款产品以分散风险，提高出借人的交易效率。针对这个问题，研究组系统性地研究了如何帮助出借人选择贷款产品组合。首先，研究组抽取了大量P2P借贷过程中产生的特征信息。接着，研究组提出了采用梯度提升树模型融合静态、动态特征来估计贷款产品的多目标属性。然后，提出了两种选择策略，即加权目标策略和多目标优化策略，来选择贷款产品组合。加权目标策略可以为每一个出借人选择一个既定条件下最优的产品组合，而多目标优化策略可以为每个出借人选择一组帕累托最优的产品组合集合。在两种选择策略中，研究组分别设计了基于动态规划和演化计算的算法来实现产品组合的选择。
+                            矩阵分解作为推荐系统中应用最为广泛的机器学习算法之一，近年来受到了越来越多的关注。在通常情况下，各种矩阵分解算法或多或少都会在算法模型中存在着模型参数。而且为了获得比较不错的预测效果，在使用这些矩阵分解模型的时候需要对模型进行参数调节。然而，参数调节对于大规模矩阵分解问题来说是非常耗时甚至不可接受的。在以往的研究中，参数调节的代价往往被忽略。为了克服上述挑战，研究组提出了参数对矩阵规模不变的矩阵分解方法来减轻在大规模矩阵分解中所面临的参数调节困难问题。
+                        </p>
+                        <p>
+                            具体来说，研究组首先采用了半正定形式的矩阵分解模型，如图上半部分所示。具体地，对于半正定形式的矩阵分解，先要利用原长方形矩阵来构造一个半正定的矩阵。
+                        </p>
+                         <p align="center">
+                            <img width=50% src="../work_images/work10_1.png" style="margin-top:30px;margin-bottom: 30px">
+                        </p>
+                        <p>
+                            从图中可以看到，随机采样的子矩阵实际上是从原始矩阵中随机挑选的行和列所覆盖到的元素所组成的矩阵，其中随机挑选到的行和列可以对应到分解矩阵和相应的行，即相应的行，把这些相应的行挑选出来后可以组成一个新的矩阵。
+                        </p>
+                        <p>
+                            因此，研究组提出了原始评分矩阵及其子矩阵的分解的第维因子的元素都服从同样的正态分布)的假设。因为原始的大规模分解因子矩阵和采样出来的子评分矩阵的分解因子矩阵是从同一组分布中生成出来的，所以可以把在子评分矩阵通过矩阵分解而估计出来的分解反差用于原始大规模评分矩阵的矩阵分解，从而非常快速地获得好的结果。
+                        </p>
+                        <p>
+                            为了实现上述过程，研究组首先构造了一个全新的矩阵分解优化问题，叫FAVA (matrix Factorization with factorization Variances),在这个问题中，分解方差被利用来构造矩阵分解优化问题中的约束。可以发现，FAVA问题中所求的矩阵每一列变量都在同一个球形空间的内部。因此，为了保证梯度下降法的每次梯度下降之后的求解变量仍然符合上述问题中的约束，研究组采用了梯度投影法求解该优化问题，也就是在梯度下降的基础上，将梯度下降后的目标变量投影回约束空间当中。同时，由于上述问题是一个非凸的问题，随机化的初始化通常得不到最好的结果，研究组提出了一种新的对变量进行初始化的方法，即利用特征分解所获得的特征向量来对的列进行初始化。
+                        </p>
+                        <p>
+                            当固定使用在子评分数据集所得的最佳参数时，在所有子评分矩阵上，研究组提出的FAVA方法在与其它两个方法的对比中都获得了最好的效果。另外，当用不同规模的子评分矩阵来估计最佳分解方差时，FAVA方法在原始的大规模评分矩阵上的有效性几乎没有发生变化，这说明FAVA方法是一个非常稳定的方法。
+                        </p>
+                        <p>
+                            <b>详细工作参见:</b>
+                        </p>
+                        <p>
+                            Guangxiang Zeng, Hengshu Zhu, Qi Liu*, Ping Luo, <u><b>Enhong Chen</b></u>, Tong Zhang, <b>Matrix Factorization with Scale-Invariant Parameters</b>, <i>The 24th International Joint Conference on Artificial Intelligence <b>(IJCAI'2015)</b></i>: 4017-4024, Buenos Aires, Argentina, July 25-31, 2015.
                         </p>
                     </div>
                 </article>

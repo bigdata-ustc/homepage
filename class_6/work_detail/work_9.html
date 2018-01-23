@@ -139,7 +139,7 @@
                                 <li><a href="../../class_4/research_projects.html">科研项目</a></li>
                             </ul>
                         </li>
-                        <li role="presentation" class="nav-current">
+                        <li role="presentation" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 科研成果
                                 <b class="caret"></b>
@@ -149,7 +149,15 @@
                                 <li><a href="../../class_5/paper.html">发表论文</a></li>
                                 <li><a href="../../class_5/monograph.html">出版专著</a></li>
                                 <li><a href="../../class_5/prize.html">获得奖项</a></li>
-                                <li><a href="../../class_5/contextaware.html">情境数据挖掘与应用</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="nav-current">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                代表性项目
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="width: inherit">
+                                <li><a href="../../class_6/contextaware.html">情境数据挖掘与应用</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -158,9 +166,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_6/overview.html">人才培养概况</a></li>
-                                <li><a href="../../class_6/prize.html">获奖情况</a></li>
-                                <li><a href="../../class_6/admission.html">招生招聘</a></li>
+                                <li><a href="../../class_7/overview.html">人才培养概况</a></li>
+                                <li><a href="../../class_7/prize.html">获奖情况</a></li>
+                                <li><a href="../../class_7/admission.html">招生招聘</a></li>
                             </ul>
                         </li>
                         <li role="presentation" class="dropdown">
@@ -169,8 +177,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../../class_7/files.html">文件材料</a></li>
-                                <li><a href="../../class_7/annual_report.html">年报</a></li>
+                                <li><a href="../../class_8/files.html">文件材料</a></li>
+                                <li><a href="../../class_8/annual_report.html">年报</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -188,27 +196,14 @@
         <div class="row">
             <aside class="col-sm-3 sidebar">
                 <div class="widget">
-                    <h4 class="title">科研成果</h4>
+                    <h4 class="title">代表性项目</h4>
                     <table class="table table-hover" >
                         <thead>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><a href="../achievement.html" >研究成果概览</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../paper.html">发表论文</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../monograph.html">出版专著</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="../prize.html">获得奖项</a></td>
-                        </tr>
-                         <tr>
                             <td><a href="../contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -217,17 +212,35 @@
 
                 <article id=97 class="post">
                     <div class="post-head">
-                        <h4 class="title">信息传播活跃度最大化研究</h4>
+                        <h4 class="title">面向多样性的用户兴趣建模方法与推荐算法</h4>
                     </div>
                     <div class="sidebar" >
                         <p>
-                            针对信息传播中该选择哪些用户作为初始用户去传播话题的问题，研究组将该问题形式化为活跃度最大化问题：给定一个信息传播网络，目标是在给定预算下找到一组最优的种子用户，以使得从这些用户开始传播信息可以让信息传播者之间的交互活跃度最大化。
+                            研究组从用户满意度角度出发，提出一种面向推荐结果多样性的用户兴趣建模方法。
                         </p>
                         <p>
-                            在社交网络中传播信息时，往往并不是传播信息而已，而是为了让传播的信息在社交网络造成轰动效应，具有很高的活跃度。那么一个有意思的问题是，在预算有限的情况下该选择哪些用户作为初始用户去传播这个话题，从而使其成为热门的话题？研究组将该问题形式化为活跃度最大化问题：给定一个信息传播网络，网络之间每条边记录用户之间的交互强度，目标是在给定预算下找到一组最优的种子用户，以使得从这些用户开始传播信息可以让信息传播者之间的交互活跃度最大化。进一步研究发现活跃度最大化问题与传统的影响力最大化问题很不相同，为此需要新的方法去解决活跃度最大化问题。研究组提出了基于采样的三明治算法，最后，在四个真实数据集上验证了提出的算法。实验结果证实了提出的算法的有效性和高效性。
+                            传统的推荐算法大多以推荐的精准度为目标，导致推荐算法给用户的推荐结果大多被限制在一个相对狭窄的推荐列表中，而用户的一些小众偏好却容易被算法忽略。因此，产生的推荐列表可能比较单调，难以覆盖用户的全部消费兴趣，导致对用户满意度的负面影响。
                         </p>
                         <p>
-                            针对此问题，研究组讨论了该问题的计算性质：活跃度最大化问题在IC和LT传播模型下都是NP难的，给定S的活跃度计算是#p难的，活跃度函数是不具有子模性质的，进一步该问题多项式时间是没有近似解的。为了获得此问题的有保证的近似解，研究组定义了活跃度函数的上界和下界函数，并证明了活跃度上界和下界函数是具有子模性质的，从而可以利用三明治算法求解。
+                            部分学者已经意识到具有多样性的推荐列表的重要意义，他们提出盲目崇拜推荐结果的精准度会伤害用户体验，而多样性是构成用户满意度的一个重要衡量指标。一些先期研究工作提出各种方法提高推荐结果的多样性。然而，这些方法通常或者引入额外信息获取多样性指标，或者在提高多样性的通知降低了推荐结果的精准度。因此，如何在通用情况下不借助产品的额外信息生成既准确又包含多样性的结果仍然是一个亟待解决的开放性课题。
+                        </p>
+                        <p>
+                            为了应对上述挑战，研究组从用户满意度角度出发，提出一种面向推荐结果多样性的用户兴趣建模方法。具体而言，针对传统推荐算法（以UCF为例）的精确度指标无衡量集合的整体效用问题而导致的推荐结果单调性问题，设计了覆盖度指标衡量集合效用。在覆盖度概念基础上，定义了在邻居选择过程中兴趣覆盖度的概念，以及在推荐列表生成过程中邻居覆盖度的含义。相应地，研究组提出了一个两层的推荐框架REC，使得在邻居集合选择和推荐列表生成过程中不仅考虑传统的相关性（RElevance）指标，而且加入新的覆盖度（Coverage）指标来衡量集合元素的效用。下图展示了REC框架，其中包含了邻居（用户）集合的选择和推荐列表的生成两个过程。
+                        </p>
+                        <p align="center">
+                            <img width=60% src="../work_images/work9_1.png" style="margin-top:30px;margin-bottom: 30px">
+                        </p>
+                        <p>
+                            具体来说，在第一个阶段邻居选择过程中，对于每个用户，需要保证每个邻居与具有较高的相关性，同时邻居集合尽可能地覆盖用户兴趣。也就是说，邻居选择过程中的两个重要指标为：兴趣相关性和兴趣覆盖度。这两个指标从不同角度刻画了邻居集合选择的过程，这两个指标可以看作分别从邻居集合个体和邻居集合整体角度衡量邻居集合的质量。邻居选择过程被定义为如下的兴趣覆盖度最大化（Interest Coverage (IntCov) Maximization）问题：
+                        </p>
+                        <p>
+                            在第二个阶段推荐列表生成过程中，与邻居集合选择过程相似，不仅需要推荐在邻居用户集合中局部流行的具有较高预测偏好的产品，同时也需要考虑每个被推荐的产品最好能覆盖不同的邻居，使得每个多样化的邻居对推荐列表有贡献。相应地可以定义邻居覆盖度最大化问题。邻居覆盖度最大化问题与兴趣覆盖度最大化问题具有相同的性质，因此同样可以使用懒惰估计的贪心算法进行求解。可以看出，通过将覆盖度概念引入REC框架中的邻居选择过程和推荐列表生成过程，自然地达到了推荐列表的多样性目标。
+                        </p>
+                        <p>
+                            <b>详细工作参见:</b>
+                        </p>
+                        <p>
+                            Le Wu, Qi Liu*, <u><b>Enhong Chen</b></u>, Nicholas Jing Yuan, Guangming Guo, Xing Xie, <b>Relevance meets Coverage: A Unified Framework to Generate Diversified Recommendations</b>, <i>ACM Transactions on Intelligent Systems and Technology <b>(ACM TIST)</b>, 7(3)</i>: 39, February 2016.
                         </p>
                     </div>
                 </article>

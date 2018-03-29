@@ -155,41 +155,23 @@ h1,h2,h3,h4,h5,h6
 	color:#fc9153;
 	font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
 }
-/*.logo{
-	background-image: url("../img/app_logo_white.png");
-	background-size: 90px 30px;
-	position: absolute;
-	left: 50px;
-	top: 35px;
-	height: 30px;
-	width: 90px;
-}
-.navbar-shrink .logo{
-	background-image: url("../img/app_logo.png");
-	background-size: 90px 30px;
-	position: absolute;
-	left: 50px;
-	top: 20px;
-	height: 30px;
-	width: 90px;
-}*/
 .logo{
 	background-image: url("../img/logo1.png");
-	background-size: 110px 30px;
+	background-size: 120px 28px;
 	position: absolute;
 	left: 25px;
-	top: 25px;
-	height: 30px;
-	width: 110px;
+	top: 20px;
+	height: 28px;
+	width: 120px;
 }
 .navbar-shrink .logo{
-	background-image: url("../img/app_logo.png");
-	background-size: 90px 30px;
+	background-image: url("../img/logo2.png");
+	background-size: 120px 28px;
 	position: absolute;
-	left: 50px;
+	left: 25px;
 	top: 20px;
-	height: 30px;
-	width: 90px;
+	height: 28px;
+	width: 120px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
 {
@@ -242,11 +224,12 @@ _
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
 {
 	color:#fff;
-	background-color:#fec503
+	background-color:#fc9153
 }
 @media (max-width:768px) {
 	.navbar .logo {
 		background: url("../img/app_logo.png");
+		background-size: 90px 30px;
 		position: absolute;
 		left: 25px;
 		top: 13px;
@@ -720,6 +703,7 @@ section h3.section-subheading
 {
 	margin:0 auto;
 	border:5px solid #ccc;
+	width: 290px;
 }
 
 .team-member h4

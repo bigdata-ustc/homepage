@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,8 +33,8 @@
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
-        $(function(){
-            $('.post-content img').each(function(item){
+        $(function () {
+            $('.post-content img').each(function (item) {
                 var src = $(this).attr('src');
 
                 $(this).wrap('<a href="' + src + '" class="mfp-zoom" style="display:block;"></a>');
@@ -42,13 +43,27 @@
     </script>
 
     <script>
-        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "24"
+            },
+            "share": {}
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src =
+            'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)
+        ];
     </script>
 
     <script>
-        $(function(){
+        $(function () {
             var version = '0.7.4';
-            var $download =  $('.download > a').first();
+            var $download = $('.download > a').first();
             var html = $download.html().replace(/\d\.\d\.\d/, version);
 
             $download.html(html);
@@ -56,520 +71,675 @@
     </script>
     <script type="text/javascript">
         var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6338835ad35c6d950a554fdedb598e48' type='text/javascript'%3E%3C/script%3E"));
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol +
+            "hm.baidu.com/h.js%3F6338835ad35c6d950a554fdedb598e48' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <meta name="generator" content="Ghost 0.7" />
     <link rel="alternate" type="application/rss+xml" title="Ghost 开源博客平台" href="http://www.ghostchina.com/rss/" />
 </head>
+
 <body class="home-template">
 
-<!-- start header -->
-<header class="main-header"   style="background-image: url(../image/bigdata.jpg); height: 260px">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
+    <!-- start header -->
+    <header class="main-header" style="background-image: url(../image/bigdata.jpg); height: 260px">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
 
-                <img src="../image/bigdata.jpg" alt="安徽省重点实验室" class="hide">
+                    <img src="../image/bigdata.jpg" alt="安徽省重点实验室" class="hide">
+                </div>
             </div>
         </div>
-    </div>
-</header>
-<!-- end header -->
+    </header>
+    <!-- end header -->
 
-<!-- start navigation -->
-<nav class="main-navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="navbar-header">
+    <!-- start navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="navbar-header">
                         <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars"></i>
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
                         </span>
-                </div>
-                <div class="collapse navbar-collapse" id="main-menu">
-                    <ul class="menu">
-                        <li role="presentation" class="dropdown">
-                            <a href="../index.html">
-                                首页
-                            </a>
-                        </li>
-                        <li  role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                实验室概况
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_1/introduction.html">实验室简介</a></li>
-                                <li><a href="../class_1/leader.html">实验室领导</a></li>
-                                <li><a href="../class_1/committee.html">学术委员会</a></li>
-                                <li><a href="../class_1/organization.html">组织机构</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                研究队伍
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_2/introduction.html">研究队伍简介</a></li>
-                                <li><a href="../class_2/ft_researcher.html">专职研究人员</a></li>
-                                <li><a href="../class_2/pt_researcher.html">兼职研究人员</a></li>
-                                <li><a href="../class_2/postdoctoral.html">博士后</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                研究室及研究方向
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_3/lab-category.html">研究室</a></li>
-                                <li><a href="../class_3/research-category.html">研究方向</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="nav-current">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                学术活动
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_4/news_list_1.html">学术动态</a></li>
-                                <li><a href="../class_4/announcement.html">会议公告</a></li>
-                                <li><a href="../class_4/research_projects.html">科研项目</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                科研成果
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_5/achievement.html">研究成果概览</a></li>
-                                <li><a href="../class_5/paper.html">发表论文</a></li>
-                                <li><a href="../class_5/monograph.html">出版专著</a></li>
-                                <li><a href="../class_5/prize.html">获得奖项</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                代表性项目
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_6/contextaware.html">情境数据挖掘与应用</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                人才培养
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_7/overview.html">人才培养概况</a></li>
-                                <li><a href="../class_7/prize.html">获奖情况</a></li>
-                                <li><a href="../class_7/admission.html">招生招聘</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                电子资源
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_8/files.html">文件材料</a></li>
-                                <li><a href="../class_8/annual_report.html">年报</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-<!-- end navigation -->
-
-
-<!-- start site's main content area -->
-<section class="content-wrap">
-    <div class="container">
-        <div class="row">
-            <aside class="col-sm-3 sidebar">
-                <div class="widget">
-                    <h4 class="title">学术活动</h4>
-                    <table class="table table-hover" >
-                        <thead>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td><a href="news_list_1.html" style="font-weight: bold">学术动态</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="announcement.html">会议公告</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="research_projects.html">科研项目</a></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </aside>
-            <aside class="col-md-9 sidebar">
-                <div class="widget">
-                    <h4 class="title">学术动态</h4>
-                    <tr>
-                      <td height="400" colspan="2" valign="top" style="padding:10px;">
-                          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                              <tbody>
-                              <tr>
-                                  <td width="10%" class="date">2018-05-16</td>
-                                  <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_24.html">我校在附一院举行“智慧医疗大数据研究中心”签约暨揭牌仪式</a></span>
-                              </tr>
-                              </tbody>
-                          </table>
-                      </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2018-03-28</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_23.html">美国北卡大学范建平教授访问我实验室并作高水平学术报告</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2018-03-21</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_22.html">实验室负责人陈恩红教授入选第三批国家“万人计划”</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2018-01-01</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_21.html">计算机学院刘淇副教授入选中国科协“青年人才托举工程”</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-12-19</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_20.html">安徽省副省长张曙光看望我校陈恩红教授</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-12-12</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_17.html">实验室同学在“微软开放学术精准画像大赛”中获得佳绩</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-12-10</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_19.html">实验室同学参加计算机学院第五届研究生学术论坛并获得佳绩</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-12-01</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_18.html">实验室同学参加研究生学术论坛暨科大讯飞核心技术嘉年华活动并获奖</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-11-02</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_16.html">刘淇副教授获评“科学与社会”研讨课优秀论文指导教师</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-10-31</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_15.html">实验室举办乒乓球比赛</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-10-26</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_14.html">实验室吴乐博士荣获2017年度中国人工智能学会优秀博士论文</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-10-15</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_12.html">郑文琛博士来访我实验室并作高水平学术交流</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-10-12</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_11.html">我实验室学子在全国“余震捕捉AI大赛”中获得佳绩</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-09-30</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_13.html">我实验室负责人陈恩红教授当选安徽省大数据产业联盟理事长</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    	<td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-09-10</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_10.html">德雷塞尔大学刘传仁博士来访我实验室并作高水平学术报告</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-06-21</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_9.html">大数据分析与应用实验室毕业典礼</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-06-15</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="sci_news/sci_news_3.html">张师超教授“大数据挖掘若干核心技术”报告</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-04-28</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_8.html">京东JData算法大赛携手人工智能主题沙龙——走进中科大</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-04-21</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="sci_news/news_7.html">计算机学院第四届研究生学术论坛圆满落幕</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-04-19</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_6.html">我校召开大数据分析与应用安徽省重点实验室建设计划任务论证会</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2017-03-31</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_5.html">计算机学院第四届研究生学术论坛通知</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2016-12-23</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="sci_news/sci_news_2.html">计算机科学与技术学院举办首届“青年教师论坛”</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="10%" class="date">2015-07-05</td>
-                                        <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_1.html">美国罗格斯－新泽西州立大学商学院熊辉教授来实验室交流访问</a></span>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="10%" class="date">2015-06-29</td>
-                                        <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_2.html">实验室举办“大数据分析”龙星计划暑期课程</a></span>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="10%" class="date">2015-06-22</td>
-                                        <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_3.html">澳大利亚悉尼科技大学工程与信息技术学院操龙兵教授来实验室访问</a></span>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="10%" class="date">2015-06-18</td>
-                                        <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="news/news_4.html">阿里巴巴多部门来实验室交流访问</a></span>
-                                    </tr>
-                                </tbody></table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="10%" class="date">2015-05-18</td>
-                                        <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="sci_news/sci_news_1.html">实验室同学参与PAKDD与WAIM国际会议</a></span>
-
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </div>
-
-                <nav class="pagination" role="navigation">
-                    <!--<a class="newer-posts" href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>-->
-                    <span class="page-number">第 1 页 &frasl; 共 1 页</span>
-                    <!--<a class="older-posts" href="news_list_2.html"><i class="fa fa-angle-right"></i></a>-->
-                </nav>
-            </aside>
-
-        </div>
-    </div>
-</section>
-
-<footer class="main-footer">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-sm-6">
-                <div class="widget">
-                    <h4 class="title">友情链接</h4>
-                    <div class="content tag-cloud friend-links">
-                        <a href="http://www.ustc.edu.cn" title="中国科学技术大学" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">中国科学技术大学</a>
-                        <a href="http://www.iflytek.com/" title="科大讯飞" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcdncn'])" target="_blank">科大讯飞</a>
-                        <a href="http://www.ahitv.com/index.html" title="安徽广电信息网络股份有限公司" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'gruntjsnet'])" target="_blank">安徽广电信息网络股份有限公司</a>
-                        <hr>
-                        <a href="http://cs.ustc.edu.cn/" title="中科大计算机科学与技术学院" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'jquery123com'])" target="_blank">中科大计算机科学与技术学院</a>
-                        <a href="http://dm.ustc.edu.cn/" title="陈恩红实验室主页" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'lodashjscom'])" target="_blank">陈恩红实验室主页</a>
-                        <hr>
-                        <a href="http://www.ahkjt.gov.cn/technologi/index.htm" title="安徽省科技厅" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'aliyun'])" target="_blank">安徽省科技厅</a>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="widget">
-                    <h4 class="title">联系我们</h4>
-                    <div class="content tag-cloud friend-links">
-                        <p>联系电话：0551-63601558</p>
-                        <hr>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="menu">
+                            <li role="presentation" class="dropdown">
+                                <a href="../index.html">
+                                    首页
+                                </a>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    实验室概况
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_1/introduction.html">实验室简介</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_1/leader.html">实验室领导</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_1/committee.html">学术委员会</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_1/organization.html">组织机构</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    研究队伍
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_2/introduction.html">研究队伍简介</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_2/ft_researcher.html">专职研究人员</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_2/pt_researcher.html">兼职研究人员</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_2/postdoctoral.html">博士后</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    研究室及研究方向
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_3/lab-category.html">研究室</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_3/research-category.html">研究方向</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="nav-current">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    学术活动
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_4/news_list_1.html">学术动态</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_4/announcement.html">会议公告</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_4/research_projects.html">科研项目</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    科研成果
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_5/achievement.html">研究成果概览</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_5/paper.html">发表论文</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_5/monograph.html">出版专著</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_5/prize.html">获得奖项</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    代表性项目
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_6/contextaware.html">情境数据挖掘与应用</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    人才培养
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_7/overview.html">人才培养概况</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_7/prize.html">获奖情况</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_7/admission.html">招生招聘</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    电子资源
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li>
+                                        <a href="../class_8/files.html">文件材料</a>
+                                    </li>
+                                    <li>
+                                        <a href="../class_8/annual_report.html">年报</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </nav>
+    <!-- end navigation -->
 
-<div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <span>Copyright &copy; <a href="http://bigdata.ustc.edu.cn/">大数据分析与应用安徽省重点实验室</a></span>
+
+    <!-- start site's main content area -->
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <aside class="col-sm-3 sidebar">
+                    <div class="widget">
+                        <h4 class="title">学术活动</h4>
+                        <table class="table table-hover">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="news_list_1.html" style="font-weight: bold">学术动态</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="announcement.html">会议公告</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="research_projects.html">科研项目</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+                <aside class="col-md-9 sidebar">
+                    <div class="widget">
+                        <h4 class="title">学术动态</h4>
+                        <tr>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tr>
+                                        <td width="10%" class="date">2018-05-28</td>
+                                        <td width="77%" valign="top" style="line-height:22px;">
+                                            <span style="font-size:14px">
+                                                <a href="news/news_25.html">实验室举办“大数据与人工智能创新论坛”</a>
+                                            </span>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                        <tr>
+                                            <td width="10%" class="date">2018-05-16</td>
+                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                <span style="font-size:14px">
+                                                    <a href="news/news_24.html">我校在附一院举行“智慧医疗大数据研究中心”签约暨揭牌仪式</a>
+                                                </span>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    </td>
+                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="10%" class="date">2018-03-28</td>
+                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                        <span style="font-size:14px">
+                                                            <a href="news/news_23.html">美国北卡大学范建平教授访问我实验室并作高水平学术报告</a>
+                                                        </span>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="10%" class="date">2018-03-21</td>
+                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                            <span style="font-size:14px">
+                                                                <a href="news/news_22.html">实验室负责人陈恩红教授入选第三批国家“万人计划”</a>
+                                                            </span>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </td>
+                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="10%" class="date">2018-01-01</td>
+                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                <span style="font-size:14px">
+                                                                    <a href="news/news_21.html">计算机学院刘淇副教授入选中国科协“青年人才托举工程”</a>
+                                                                </span>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="10%" class="date">2017-12-19</td>
+                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                    <span style="font-size:14px">
+                                                                        <a href="news/news_20.html">安徽省副省长张曙光看望我校陈恩红教授</a>
+                                                                    </span>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    </td>
+                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="10%" class="date">2017-12-12</td>
+                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                        <span style="font-size:14px">
+                                                                            <a href="news/news_17.html">实验室同学在“微软开放学术精准画像大赛”中获得佳绩</a>
+                                                                        </span>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        </td>
+                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="10%" class="date">2017-12-10</td>
+                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                            <span style="font-size:14px">
+                                                                                <a href="news/news_19.html">实验室同学参加计算机学院第五届研究生学术论坛并获得佳绩</a>
+                                                                            </span>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="10%" class="date">2017-12-01</td>
+                                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                                <span style="font-size:14px">
+                                                                                    <a href="news/news_18.html">实验室同学参加研究生学术论坛暨科大讯飞核心技术嘉年华活动并获奖</a>
+                                                                                </span>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                </td>
+                                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td width="10%" class="date">2017-11-02</td>
+                                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                                    <span style="font-size:14px">
+                                                                                        <a href="news/news_16.html">刘淇副教授获评“科学与社会”研讨课优秀论文指导教师</a>
+                                                                                    </span>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    </td>
+                                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td width="10%" class="date">2017-10-31</td>
+                                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                                        <span style="font-size:14px">
+                                                                                            <a href="news/news_15.html">实验室举办乒乓球比赛</a>
+                                                                                        </span>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        </td>
+                                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td width="10%" class="date">2017-10-26</td>
+                                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                                            <span style="font-size:14px">
+                                                                                                <a href="news/news_14.html">实验室吴乐博士荣获2017年度中国人工智能学会优秀博士论文</a>
+                                                                                            </span>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            </td>
+                                                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td width="10%" class="date">2017-10-15</td>
+                                                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                <span style="font-size:14px">
+                                                                                                    <a href="news/news_12.html">郑文琛博士来访我实验室并作高水平学术交流</a>
+                                                                                                </span>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                </td>
+                                                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td width="10%" class="date">2017-10-12</td>
+                                                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                    <span style="font-size:14px">
+                                                                                                        <a href="news/news_11.html">我实验室学子在全国“余震捕捉AI大赛”中获得佳绩</a>
+                                                                                                    </span>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td width="10%" class="date">2017-09-30</td>
+                                                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                        <span style="font-size:14px">
+                                                                                                            <a href="news/news_13.html">我实验室负责人陈恩红教授当选安徽省大数据产业联盟理事长</a>
+                                                                                                        </span>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        </td>
+                                                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td width="10%" class="date">2017-09-10</td>
+                                                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                            <span style="font-size:14px">
+                                                                                                                <a href="news/news_10.html">德雷塞尔大学刘传仁博士来访我实验室并作高水平学术报告</a>
+                                                                                                            </span>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            </td>
+                                                                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td width="10%" class="date">2017-06-21</td>
+                                                                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                <span style="font-size:14px">
+                                                                                                                    <a href="news/news_9.html">大数据分析与应用实验室毕业典礼</a>
+                                                                                                                </span>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                                </td>
+                                                                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td width="10%" class="date">2017-06-15</td>
+                                                                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                    <span style="font-size:14px">
+                                                                                                                        <a href="sci_news/sci_news_3.html">张师超教授“大数据挖掘若干核心技术”报告</a>
+                                                                                                                    </span>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                    </td>
+                                                                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                            <tbody>
+                                                                                                                <tr>
+                                                                                                                    <td width="10%" class="date">2017-04-28</td>
+                                                                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                        <span style="font-size:14px">
+                                                                                                                            <a href="news/news_8.html">京东JData算法大赛携手人工智能主题沙龙——走进中科大</a>
+                                                                                                                        </span>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                        </td>
+                                                                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td width="10%" class="date">2017-04-21</td>
+                                                                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                            <span style="font-size:14px">
+                                                                                                                                <a href="sci_news/news_7.html">计算机学院第四届研究生学术论坛圆满落幕</a>
+                                                                                                                            </span>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                            </td>
+                                                                                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td width="10%" class="date">2017-04-19</td>
+                                                                                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                <span style="font-size:14px">
+                                                                                                                                    <a href="news/news_6.html">我校召开大数据分析与应用安徽省重点实验室建设计划任务论证会</a>
+                                                                                                                                </span>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                                </td>
+                                                                                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                        <tbody>
+                                                                                                                            <tr>
+                                                                                                                                <td width="10%" class="date">2017-03-31</td>
+                                                                                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                    <span style="font-size:14px">
+                                                                                                                                        <a href="news/news_5.html">计算机学院第四届研究生学术论坛通知</a>
+                                                                                                                                    </span>
+                                                                                                                            </tr>
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                                    </td>
+                                                                                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <td width="10%" class="date">2016-12-23</td>
+                                                                                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                        <span style="font-size:14px">
+                                                                                                                                            <a href="sci_news/sci_news_2.html">计算机科学与技术学院举办首届“青年教师论坛”</a>
+                                                                                                                                        </span>
+                                                                                                                                </tr>
+                                                                                                                            </tbody>
+                                                                                                                        </table>
+                                                                                                                        </td>
+                                                                                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                                <tbody>
+                                                                                                                                    <tr>
+                                                                                                                                        <td width="10%" class="date">2015-07-05</td>
+                                                                                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                            <span style="font-size:14px">
+                                                                                                                                                <a href="news/news_1.html">美国罗格斯－新泽西州立大学商学院熊辉教授来实验室交流访问</a>
+                                                                                                                                            </span>
+                                                                                                                                    </tr>
+                                                                                                                                </tbody>
+                                                                                                                            </table>
+                                                                                                                            </td>
+                                                                                                                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                                    <tbody>
+                                                                                                                                        <tr>
+                                                                                                                                            <td width="10%" class="date">2015-06-29</td>
+                                                                                                                                            <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                                <span style="font-size:14px">
+                                                                                                                                                    <a href="news/news_2.html">实验室举办“大数据分析”龙星计划暑期课程</a>
+                                                                                                                                                </span>
+                                                                                                                                        </tr>
+                                                                                                                                    </tbody>
+                                                                                                                                </table>
+                                                                                                                                </td>
+                                                                                                                                <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                                        <tbody>
+                                                                                                                                            <tr>
+                                                                                                                                                <td width="10%" class="date">2015-06-22</td>
+                                                                                                                                                <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                                    <span style="font-size:14px">
+                                                                                                                                                        <a href="news/news_3.html">澳大利亚悉尼科技大学工程与信息技术学院操龙兵教授来实验室访问</a>
+                                                                                                                                                    </span>
+                                                                                                                                            </tr>
+                                                                                                                                        </tbody>
+                                                                                                                                    </table>
+                                                                                                                                    </td>
+                                                                                                                                    <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                                            <tbody>
+                                                                                                                                                <tr>
+                                                                                                                                                    <td width="10%" class="date">2015-06-18</td>
+                                                                                                                                                    <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                                        <span style="font-size:14px">
+                                                                                                                                                            <a href="news/news_4.html">阿里巴巴多部门来实验室交流访问</a>
+                                                                                                                                                        </span>
+                                                                                                                                                </tr>
+                                                                                                                                            </tbody>
+                                                                                                                                        </table>
+                                                                                                                                        </td>
+                                                                                                                                        <td height="400" colspan="2" valign="top" style="padding:10px;">
+
+                                                                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                                                                                                                                <tbody>
+                                                                                                                                                    <tr>
+                                                                                                                                                        <td width="10%" class="date">2015-05-18</td>
+                                                                                                                                                        <td width="77%" valign="top" style="line-height:22px;">
+                                                                                                                                                            <span style="font-size:14px">
+                                                                                                                                                                <a href="sci_news/sci_news_1.html">实验室同学参与PAKDD与WAIM国际会议</a>
+                                                                                                                                                            </span>
+
+                                                                                                                                                    </tr>
+                                                                                                                                                </tbody>
+                                                                                                                                            </table>
+                                                                                                                                            </td>
+                        </tr>
+                    </div>
+
+                    <nav class="pagination" role="navigation">
+                        <!--<a class="newer-posts" href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>-->
+                        <span class="page-number">第 1 页 &frasl; 共 1 页</span>
+                        <!--<a class="older-posts" href="news_list_2.html"><i class="fa fa-angle-right"></i></a>-->
+                    </nav>
+                </aside>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <div class="widget">
+                        <h4 class="title">友情链接</h4>
+                        <div class="content tag-cloud friend-links">
+                            <a href="http://www.ustc.edu.cn" title="中国科学技术大学" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">中国科学技术大学</a>
+                            <a href="http://www.iflytek.com/" title="科大讯飞" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcdncn'])" target="_blank">科大讯飞</a>
+                            <a href="http://www.ahitv.com/index.html" title="安徽广电信息网络股份有限公司" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'gruntjsnet'])"
+                                target="_blank">安徽广电信息网络股份有限公司</a>
+                            <hr>
+                            <a href="http://cs.ustc.edu.cn/" title="中科大计算机科学与技术学院" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'jquery123com'])"
+                                target="_blank">中科大计算机科学与技术学院</a>
+                            <a href="http://dm.ustc.edu.cn/" title="陈恩红实验室主页" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'lodashjscom'])" target="_blank">陈恩红实验室主页</a>
+                            <hr>
+                            <a href="http://www.ahkjt.gov.cn/technologi/index.htm" title="安徽省科技厅" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'aliyun'])"
+                                target="_blank">安徽省科技厅</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="widget">
+                        <h4 class="title">联系我们</h4>
+                        <div class="content tag-cloud friend-links">
+                            <p>联系电话：0551-63601558</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span>Copyright &copy;
+                        <a href="http://bigdata.ustc.edu.cn/">大数据分析与应用安徽省重点实验室</a>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <a href="#" id="back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
 
 
 
 </body>
+
 </html>

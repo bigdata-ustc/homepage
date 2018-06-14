@@ -14,6 +14,33 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
 
+    <!-- Style -->
+    <style>
+            .menus {
+                position: relative;
+            }
+    
+            .menus span {
+                background: url("http://img.china.alibaba.com/cms/upload/2013/201/298/892102_1573916616.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                top: -3px;
+                margin-left: 10px;
+    
+            }
+    </style>
+    
+    <script language="javascript">
+        $(document).ready(function () {
+            $('.menu').click(
+                function () {
+                    $(this).children('span').hide();
+                }
+            );
+        });
+    </script>
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/monokai_sublime.min.css">
@@ -292,8 +319,8 @@
                                             <tr>
                                         <td width="10%" class="date">2018-06-14</td>
                                         <td width="77%" valign="top" style="line-height:22px;">
-                                        <span style="font-size:14px">
-                                            <a href="news/news_27.html">实验室负责人陈恩红教授被聘为新一届上海市决咨委委员</a>
+                                        <span style="font-size:14px" class="menus">
+                                            <a href="news/news_27.html">实验室负责人陈恩红教授被聘为新一届上海市决咨委委员<span/></a>
                                         </span>
                                     </tr>
                                     </tbody>

@@ -11,6 +11,34 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Style -->
+    <style>
+            .menus {
+                position: relative;
+            }
+    
+            .menus span {
+                background: url("http://img.china.alibaba.com/cms/upload/2013/201/298/892102_1573916616.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                top: -3px;
+                margin-left: 10px;
+    
+            }
+    </style>
+    
+    <script language="javascript">
+        $(document).ready(function () {
+            $('.menu').click(
+                function () {
+                    $(this).children('span').hide();
+                }
+            );
+        });
+    </script>
+
+
     <!--<link rel="shortcut icon" href="/favicon.ico">-->
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -253,7 +281,7 @@
                                             <table width="100%" border="0" cellspacing="0" cellpadding="0" class="indexTitle">
                                                 <tbody>
                                                     <tr>
-                                                        <td width="79%" height="30"><a href="class_4/news/news_27.html" target="_blank" title="实验室负责人陈恩红教授被聘为新一届上海市决咨委委员">&bull;&nbsp;&nbsp;实验室负责人陈恩红教授被聘为新一...</a></td>
+                                                        <td width="79%" height="30" class="menus"><a href="class_4/news/news_27.html" target="_blank" title="实验室负责人陈恩红教授被聘为新一届上海市决咨委委员">&bull;&nbsp;&nbsp;实验室负责人陈恩红教授被聘为新一...<span/></a></td>
                                                         <td width="21%" class="date">2018-06-14</td>
                                                     </tr>
                                                     <tr>

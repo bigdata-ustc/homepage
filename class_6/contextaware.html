@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,8 +33,8 @@
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
-        $(function(){
-            $('.post-content img').each(function(item){
+        $(function () {
+            $('.post-content img').each(function (item) {
                 var src = $(this).attr('src');
 
                 $(this).wrap('<a href="' + src + '" class="mfp-zoom" style="display:block;"></a>');
@@ -42,13 +43,13 @@
     </script>
 
     <script>
-        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
     </script>
 
     <script>
-        $(function(){
+        $(function () {
             var version = '0.7.4';
-            var $download =  $('.download > a').first();
+            var $download = $('.download > a').first();
             var html = $download.html().replace(/\d\.\d\.\d/, version);
 
             $download.html(html);
@@ -61,440 +62,520 @@
     <meta name="generator" content="Ghost 0.7" />
     <link rel="alternate" type="application/rss+xml" title="Ghost 开源博客平台" href="http://www.ghostchina.com/rss/" />
 </head>
+
 <body class="home-template">
 
-<!-- start header -->
-<header class="main-header"   style="background-image: url(../image/bigdata.jpg); height: 260px">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
+    <!-- start header -->
+    <header class="main-header" style="background-image: url(../image/bigdata.jpg); height: 260px">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
 
-                <img src="../image/bigdata.jpg" alt="安徽省重点实验室" class="hide">
+                    <img src="../image/bigdata.jpg" alt="安徽省重点实验室" class="hide">
+                </div>
             </div>
         </div>
-    </div>
-</header>
-<!-- end header -->
+    </header>
+    <!-- end header -->
 
-<!-- start navigation -->
-<nav class="main-navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="navbar-header">
-                        <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars"></i>
+
+
+
+
+
+
+
+    <!-- start navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="navbar-header">
+                        <span class="nav-toggle-button collapsed" data-target="#main-menu" data-toggle="collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
                         </span>
-                </div>
-                <div class="collapse navbar-collapse" id="main-menu">
-                    <ul class="menu">
-                        <li role="presentation" class="dropdown">
-                            <a href="../index.html">
-                                首页
-                            </a>
-                        </li>
-                        <li  role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                实验室概况
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_1/introduction.html">实验室简介</a></li>
-                                <li><a href="../class_1/leader.html">实验室领导</a></li>
-                                <li><a href="../class_1/committee.html">学术委员会</a></li>
-                                <li><a href="../class_1/organization.html">组织机构</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                研究队伍
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_2/introduction.html">研究队伍简介</a></li>
-                                <li><a href="../class_2/ft_researcher.html">专职研究人员</a></li>
-                                <li><a href="../class_2/pt_researcher.html">兼职研究人员</a></li>
-                                <li><a href="../class_2/postdoctoral.html">博士后</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                研究室及研究方向
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_3/lab-category.html">研究室</a></li>
-                                <li><a href="../class_3/research-category.html">研究方向</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                学术活动
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_4/news_list_1.html">学术动态</a></li>
-                                <li><a href="../class_4/announcement.html">会议公告</a></li>
-                                <li><a href="../class_4/research_projects.html">科研项目</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                科研成果
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_5/achievement.html">研究成果概览</a></li>
-                                <li><a href="../class_5/paper.html">发表论文</a></li>
-                                <li><a href="../class_5/monograph.html">出版专著</a></li>
-                                <li><a href="../class_5/prize.html">获得奖项</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="nav-current">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                代表性项目
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_6/contextaware.html">情境数据挖掘与应用</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                人才培养
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_7/overview.html">人才培养概况</a></li>
-                                <li><a href="../class_7/prize.html">获奖情况</a></li>
-                                <li><a href="../class_7/admission.html">招生招聘</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                电子资源
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu" style="width: inherit">
-                                <li><a href="../class_8/files.html">文件材料</a></li>
-                                <li><a href="../class_8/annual_report.html">年报</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="menu">
+                            <li role="presentation"><a href="../index.html">首页</a></li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    实验室概况
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_1/introduction.html">实验室简介</a></li>
+                                    <li><a href="../class_1/leader.html">实验室领导</a></li>
+                                    <li><a href="../class_1/committee.html">学术委员会</a></li>
+                                    <li><a href="../class_1/organization.html">组织机构</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    研究队伍
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_2/introduction.html">研究队伍简介</a></li>
+                                    <li><a href="../class_2/ft_researcher.html">专职研究人员</a></li>
+                                    <li><a href="../class_2/pt_researcher.html">兼职研究人员</a></li>
+                                    <li><a href="../class_2/postdoctoral.html">博士后</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    研究室及研究方向
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_3/lab-category.html">研究室</a></li>
+                                    <li><a href="../class_3/research-category.html">研究方向</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    学术活动
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_4/news_list_1.html">学术动态</a></li>
+                                    <li><a href="../class_4/announcement.html">会议公告</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    科研成果
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_5/paper.html">发表论文</a></li>
+                                    <li><a href="../class_5/monograph.html">出版专著</a></li>
+                                    <li><a href="../class_5/achievement.html">专利</a></li>
+                                    <li><a href="../class_5/prize.html">获得奖项</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-current" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    代表性项目
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_6/research_projects.html">科研项目</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    人才培养
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_7/overview.html">人才培养概况</a></li>
+                                    <li><a href="../class_7/prize.html">获奖情况</a></li>
+                                    <li><a href="../class_7/admission.html">招生招聘</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    电子资源
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" style="width: inherit">
+                                    <li><a href="../class_8/files.html">文件材料</a></li>
+                                    <li><a href="../class_8/annual_report.html">年报</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</nav>
-<!-- end navigation -->
+    </nav>
+    <!-- end navigation -->
 
 
-<!-- start site's main content area -->
-<section class="content-wrap">
-    <div class="container">
-        <div class="row">
-            <aside class="col-sm-3 sidebar">
-                <div class="widget">
-                    <h4 class="title">代表性项目</h4>
-                    <table class="table table-hover" >
-                        <thead>
-                        </thead>
-                        <tbody>
-                         <tr>
-                            <td><a href="contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
-                        </tr>
 
-                        </tbody>
-                    </table>
-                </div>
-            </aside>
-            <aside class="col-md-9 sidebar">
-                <div class="widget">
-                    <h4 class="title">项目介绍</h4>
-                    <div class="sidebar" >
-                        <!-- <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的定义:</span> -->
-                        <p>
-                            作为跨学科概念，情境感知(Context Aware)在计算机科学、认知科学、心理学、语言学等诸多领域有着广泛的应用前景。从计算机科学的视角出发，情境是指“任何有助于刻画一个实体目前所处状态的信息”。由于任何实体（用户）的后续行为通常受其当前情境信息的影响，甚至由其情境信息决定，借助情境信息，服务提供者可以为用户提供更精确的信息搜索或信息推荐服务。因此，开展情境数据挖掘研究，对提高用户的行为理解、分析与预测能力，推动移动与互联网搜索等领域的进一步发展，进而推进现代服务业水平的提升具有重要而实际的意义。与传统的数据挖掘方法相比，情境数据挖掘更为强调“场景”的概念，即多种反映用户状态信息源的综合描述。在获取更丰富情境特征信息的同时，情境数据挖掘技术也面临着全新挑战，尤其是用户所面临的情境不断切换，相应的情境行为模式也需要随之更新，甚至其不同情境的语义转换也具有显著意义，问题的时空复杂度较高。另一方面，情境由多种特征组成，不同种类特征之间存在着关联性。因此，如何理解和利用这些关联性成为决定情境模式有效性的关键因素。此外，在情境数据挖掘应用中，用户兴趣的多样性加上情境类型的多样性，导致用户行为空间具有高维稀疏的特点，也进一步增加了情境数据挖掘的困难。
-                        </p>
-                        <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的重要性:</span>
-                        <p>
-                            大数据是国家新型战略资源，已成为推动众多产业与科技创新发展的重要驱动力。有别于传统类型的大数据，由于情境大数据融合了用户行为相关的动态场景信息，从而产生了更大量、更复杂、更多源的异构数据，使得现有的大数据方法和理论难以直接应用。这不仅给大数据挖掘技术的发展提出了新的挑战，也为大数据的研究提出了新的科学问题。开展情境数据挖掘研究，对提高用户的行为理解、分析与预测能力，推动移动与互联网搜索等领域的进一步发展，进而推进现代服务业水平的提升具有重要而实际的意义。
-                        </p>
-                        <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的研究难点与瓶颈问题:</span>
-                        <p>
-                            与传统的数据挖掘方法相比，情境数据挖掘更为强调“场景”的概念，即多种反映用户状态信息源的综合描述。在获取更丰富情境特征信息的同时，情境数据挖掘技术也面临着全新挑战，尤其是用户所面临的情境不断切换，相应的情境行为模式也需要随之更新，甚至其不同情境的语义转换也具有显著意义，问题的时空复杂度较高。另一方面，情境由多种特征组成，不同种类特征之间存在着关联性。因此，如何理解和利用这些关联性成为决定情境模式有效性的关键因素。此外，在情境数据挖掘应用中，用户兴趣的多样性加上情境类型的多样性，导致用户行为空间具有高维稀疏的特点，也进一步增加了情境数据挖掘的困难。
-                        </p>
-                        <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的发展趋势:</span>
-                        <p>
-                            随着计算能力的增长和算法的发展，数据的多情境性，例如异构数据源、多种无结构数据类型（图片、网络、序列、文本）等，在数据挖掘研究中也变得更加重要。针对多情境的异构数据，可以结合多视图学习，多源学习，多模型学习等方法，学习到不同类型的信息。对相似实体的信息，可以结合迁移学习方法进行挖掘。情境数据挖掘可以在智慧城市、推荐系统、用户兴趣地点、社交网络等方向发挥重要作用。
-                        </p>
-                        <p>
-                            本项目受国家杰出青年科学基金资助，项目批准号61325010.
-                        </p>
+
+
+
+
+
+
+    <!-- start site's main content area -->
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <aside class="col-sm-3 sidebar">
+                    <div class="widget">
+                        <h4 class="title">代表性项目</h4>
+                        <table class="table table-hover">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <!-- <tr>
+                                    <td><a href="contextaware.html" style="font-weight: bold">情境数据挖掘与应用</a></td>
+                                </tr> -->
+                                <tr>
+                                    <td><a href="research_projects.html">科研项目</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
-                <div class="widget">
-                    <h4 class="title">研究方向及研究成果</h4>
-                    <div class="sidebar" >
-                        <!-- part1 -->
-                        <span style="font-size:14px; font-weight:bold;">情境建模</span>
-                        <p>
-                            多源异构数据的融合和情境建模。针对情境大数据多源异构、高维稀疏且标记缺失等特点，建立了情境大数据的无监督融合表示新模型，发现了情境大数据之间的内在联系，解决了情境大数据的融合、特征表示和情境识别所带来的瓶颈问题，显著提升了情境大数据的信息表达能力，并构成情境大数据分析的数据结构基础。发展了“情境-兴趣”新模型，不仅解决了描述用户兴趣与情境之间的动态关联难题，也增强了大数据分析的时效性，为建立情境大数据挖掘技术奠定了模型基础。这也是情境大数据分析的关键。
-                            代表性工作如下:
-                        </p>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">1.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_1.html" target="_blank">面向移动App的排名欺诈检测方法研究</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_2.html" target="_blank">用户消费行为与社交行为的联合演化研究</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">3.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_3.html" target="_blank">出租车驾驶行为与社交行为联合演化研究</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">4.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_4.html" target="_blank">信息覆盖度最大化问题研究</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">5.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_5.html" target="_blank">线性影响力模型与影响力计算</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">6.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_6.html" target="_blank">信息传播活跃度最大化研究</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <!-- part2 -->
-                        <Br />
-                        <span style="font-size:14px; font-weight:bold;">算法优化</span>
-                        <p>
-                            高效情境数据挖掘算法的设计优化。开展了情境大数据挖掘技术的研究，针对多个应用领域的用户意图理解与分析（如信息检索、个性化推荐等），提出了卓有成效的情境感知挖掘技术，揭示了实际应用中领域知识对情境大数据挖掘的复杂约束效应。这是情境大数据挖掘的目标。
-                            代表性工作如下:
-                        </p>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">1.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_7.html" target="_blank">融合情境信息的个性化旅游套餐推荐算法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_8.html" target="_blank">安全隐私感知的移动App推荐算法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">3.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_9.html" target="_blank">面向多样性的用户兴趣建模方法与推荐算法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">4.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_10.html" target="_blank">参数对矩阵规模不变的矩阵分解方法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">5.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_11.html" target="_blank">低秩矩阵收缩阈值与权值再分配算法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">6.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_12.html" target="_blank">基于线性特征转化的增量矩阵分解方法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <!-- part3 -->
-                        <Br />
-                        <span style="font-size:14px; font-weight:bold;">应用研究</span>
-                        <p>
-                            面向实际领域的应用研究。部分成果用于若干领域的智能服务场景，取得了显著的应用成效。
-                            代表性工作如下:
-                        </p>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">1.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_13.html" target="_blank">房产市场销售天数预测问题</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">2.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_14.html" target="_blank">P2P借贷中选择贷款产品的多目标方法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">3.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_15.html" target="_blank">众筹项目设计备选产品的数量问题</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">4.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_16.html" target="_blank">用于分析学生认知情况的诊断模型</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">5.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_17.html" target="_blank">基于试题表征的试题难度预测方法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td height="400" colspan="2" valign="top" style="padding:10px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
-                                <tbody>
-                                <tr>
-                                    <td width="10%" class="date">6.</td>
-                                    <td width="77%" valign="top" style="line-height:22px;"><span style="font-size:14px"><a href="work_detail/work_18.html" target="_blank">学生游戏心理建模方法</a></span>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
+                </aside>
+                <aside class="col-md-9 sidebar">
+                    <div class="widget">
+                        <h4 class="title">项目介绍</h4>
+                        <div class="sidebar">
+                            <!-- <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的定义:</span> -->
+                            <p>
+                                作为跨学科概念，情境感知(Context
+                                Aware)在计算机科学、认知科学、心理学、语言学等诸多领域有着广泛的应用前景。从计算机科学的视角出发，情境是指“任何有助于刻画一个实体目前所处状态的信息”。由于任何实体（用户）的后续行为通常受其当前情境信息的影响，甚至由其情境信息决定，借助情境信息，服务提供者可以为用户提供更精确的信息搜索或信息推荐服务。因此，开展情境数据挖掘研究，对提高用户的行为理解、分析与预测能力，推动移动与互联网搜索等领域的进一步发展，进而推进现代服务业水平的提升具有重要而实际的意义。与传统的数据挖掘方法相比，情境数据挖掘更为强调“场景”的概念，即多种反映用户状态信息源的综合描述。在获取更丰富情境特征信息的同时，情境数据挖掘技术也面临着全新挑战，尤其是用户所面临的情境不断切换，相应的情境行为模式也需要随之更新，甚至其不同情境的语义转换也具有显著意义，问题的时空复杂度较高。另一方面，情境由多种特征组成，不同种类特征之间存在着关联性。因此，如何理解和利用这些关联性成为决定情境模式有效性的关键因素。此外，在情境数据挖掘应用中，用户兴趣的多样性加上情境类型的多样性，导致用户行为空间具有高维稀疏的特点，也进一步增加了情境数据挖掘的困难。
+                            </p>
+                            <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的重要性:</span>
+                            <p>
+                                大数据是国家新型战略资源，已成为推动众多产业与科技创新发展的重要驱动力。有别于传统类型的大数据，由于情境大数据融合了用户行为相关的动态场景信息，从而产生了更大量、更复杂、更多源的异构数据，使得现有的大数据方法和理论难以直接应用。这不仅给大数据挖掘技术的发展提出了新的挑战，也为大数据的研究提出了新的科学问题。开展情境数据挖掘研究，对提高用户的行为理解、分析与预测能力，推动移动与互联网搜索等领域的进一步发展，进而推进现代服务业水平的提升具有重要而实际的意义。
+                            </p>
+                            <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的研究难点与瓶颈问题:</span>
+                            <p>
+                                与传统的数据挖掘方法相比，情境数据挖掘更为强调“场景”的概念，即多种反映用户状态信息源的综合描述。在获取更丰富情境特征信息的同时，情境数据挖掘技术也面临着全新挑战，尤其是用户所面临的情境不断切换，相应的情境行为模式也需要随之更新，甚至其不同情境的语义转换也具有显著意义，问题的时空复杂度较高。另一方面，情境由多种特征组成，不同种类特征之间存在着关联性。因此，如何理解和利用这些关联性成为决定情境模式有效性的关键因素。此外，在情境数据挖掘应用中，用户兴趣的多样性加上情境类型的多样性，导致用户行为空间具有高维稀疏的特点，也进一步增加了情境数据挖掘的困难。
+                            </p>
+                            <span style="font-size:14px; font-weight:bold;">情境数据挖掘与应用的发展趋势:</span>
+                            <p>
+                                随着计算能力的增长和算法的发展，数据的多情境性，例如异构数据源、多种无结构数据类型（图片、网络、序列、文本）等，在数据挖掘研究中也变得更加重要。针对多情境的异构数据，可以结合多视图学习，多源学习，多模型学习等方法，学习到不同类型的信息。对相似实体的信息，可以结合迁移学习方法进行挖掘。情境数据挖掘可以在智慧城市、推荐系统、用户兴趣地点、社交网络等方向发挥重要作用。
+                            </p>
+                            <p>
+                                本项目受国家杰出青年科学基金资助，项目批准号61325010.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <!--<nav class="pagination" role="navigation">-->
+                    <div class="widget">
+                        <h4 class="title">研究方向及研究成果</h4>
+                        <div class="sidebar">
+                            <!-- part1 -->
+                            <span style="font-size:14px; font-weight:bold;">情境建模</span>
+                            <p>
+                                多源异构数据的融合和情境建模。针对情境大数据多源异构、高维稀疏且标记缺失等特点，建立了情境大数据的无监督融合表示新模型，发现了情境大数据之间的内在联系，解决了情境大数据的融合、特征表示和情境识别所带来的瓶颈问题，显著提升了情境大数据的信息表达能力，并构成情境大数据分析的数据结构基础。发展了“情境-兴趣”新模型，不仅解决了描述用户兴趣与情境之间的动态关联难题，也增强了大数据分析的时效性，为建立情境大数据挖掘技术奠定了模型基础。这也是情境大数据分析的关键。
+                                代表性工作如下:
+                            </p>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">1.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_1.html"
+                                                        target="_blank">面向移动App的排名欺诈检测方法研究</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">2.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_2.html"
+                                                        target="_blank">用户消费行为与社交行为的联合演化研究</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">3.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_3.html"
+                                                        target="_blank">出租车驾驶行为与社交行为联合演化研究</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">4.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_4.html"
+                                                        target="_blank">信息覆盖度最大化问题研究</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">5.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_5.html"
+                                                        target="_blank">线性影响力模型与影响力计算</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">6.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_6.html"
+                                                        target="_blank">信息传播活跃度最大化研究</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <!-- part2 -->
+                            <Br />
+                            <span style="font-size:14px; font-weight:bold;">算法优化</span>
+                            <p>
+                                高效情境数据挖掘算法的设计优化。开展了情境大数据挖掘技术的研究，针对多个应用领域的用户意图理解与分析（如信息检索、个性化推荐等），提出了卓有成效的情境感知挖掘技术，揭示了实际应用中领域知识对情境大数据挖掘的复杂约束效应。这是情境大数据挖掘的目标。
+                                代表性工作如下:
+                            </p>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">1.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_7.html"
+                                                        target="_blank">融合情境信息的个性化旅游套餐推荐算法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">2.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_8.html"
+                                                        target="_blank">安全隐私感知的移动App推荐算法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">3.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_9.html"
+                                                        target="_blank">面向多样性的用户兴趣建模方法与推荐算法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">4.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_10.html"
+                                                        target="_blank">参数对矩阵规模不变的矩阵分解方法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">5.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_11.html"
+                                                        target="_blank">低秩矩阵收缩阈值与权值再分配算法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">6.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_12.html"
+                                                        target="_blank">基于线性特征转化的增量矩阵分解方法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <!-- part3 -->
+                            <Br />
+                            <span style="font-size:14px; font-weight:bold;">应用研究</span>
+                            <p>
+                                面向实际领域的应用研究。部分成果用于若干领域的智能服务场景，取得了显著的应用成效。
+                                代表性工作如下:
+                            </p>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">1.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_13.html"
+                                                        target="_blank">房产市场销售天数预测问题</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">2.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_14.html"
+                                                        target="_blank">P2P借贷中选择贷款产品的多目标方法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">3.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_15.html"
+                                                        target="_blank">众筹项目设计备选产品的数量问题</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">4.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_16.html"
+                                                        target="_blank">用于分析学生认知情况的诊断模型</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">5.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_17.html"
+                                                        target="_blank">基于试题表征的试题难度预测方法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td height="400" colspan="2" valign="top" style="padding:10px;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="border-bottom:1px #d8d8d8 dashed; margin-bottom:10px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="10%" class="date">6.</td>
+                                            <td width="77%" valign="top" style="line-height:22px;"><span
+                                                    style="font-size:14px"><a href="work_detail/work_18.html"
+                                                        target="_blank">学生游戏心理建模方法</a></span>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </div>
+                    </div>
+                    <!--<nav class="pagination" role="navigation">-->
                     <!--<a class="newer-posts" href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>-->
                     <!--<span class="page-number">第 1 页 &frasl; 共 1 页</span>-->
                     <!--<a class="older-posts" href="news_list_2.html"><i class="fa fa-angle-right"></i></a>-->
-                <!--</nav>-->
-            </aside>
+                    <!--</nav>-->
+                </aside>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<footer class="main-footer">
-    <div class="container">
-        <div class="row">
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
 
-            <div class="col-sm-6">
-                <div class="widget">
-                    <h4 class="title">友情链接</h4>
-                    <div class="content tag-cloud friend-links">
-                        <a href="http://www.ustc.edu.cn" title="中国科学技术大学" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">中国科学技术大学</a>
-                        <a href="http://www.iflytek.com/" title="科大讯飞" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcdncn'])" target="_blank">科大讯飞</a>
-                        <a href="http://www.ahitv.com/index.html" title="安徽广电信息网络股份有限公司" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'gruntjsnet'])" target="_blank">安徽广电信息网络股份有限公司</a>
-                        <hr>
-                        <a href="http://cs.ustc.edu.cn/" title="中科大计算机科学与技术学院" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'jquery123com'])" target="_blank">中科大计算机科学与技术学院</a>
-                        <a href="http://dm.ustc.edu.cn/" title="陈恩红实验室主页" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'lodashjscom'])" target="_blank">陈恩红实验室主页</a>
-                        <hr>
-                        <a href="http://www.ahkjt.gov.cn/technologi/index.htm" title="安徽省科技厅" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'aliyun'])" target="_blank">安徽省科技厅</a>
+                <div class="col-sm-6">
+                    <div class="widget">
+                        <h4 class="title">友情链接</h4>
+                        <div class="content tag-cloud friend-links">
+                            <a href="http://www.ustc.edu.cn" title="中国科学技术大学"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])"
+                                target="_blank">中国科学技术大学</a>
+                            <a href="http://www.iflytek.com/" title="科大讯飞"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcdncn'])"
+                                target="_blank">科大讯飞</a>
+                            <a href="http://www.ahitv.com/index.html" title="安徽广电信息网络股份有限公司"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'gruntjsnet'])"
+                                target="_blank">安徽广电信息网络股份有限公司</a>
+                            <hr>
+                            <a href="http://cs.ustc.edu.cn/" title="中科大计算机科学与技术学院"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'jquery123com'])"
+                                target="_blank">中科大计算机科学与技术学院</a>
+                            <a href="http://dm.ustc.edu.cn/" title="陈恩红实验室主页"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'lodashjscom'])"
+                                target="_blank">陈恩红实验室主页</a>
+                            <hr>
+                            <a href="http://www.ahkjt.gov.cn/technologi/index.htm" title="安徽省科技厅"
+                                onclick="_hmt.push(['_trackEvent', 'link', 'click', 'aliyun'])"
+                                target="_blank">安徽省科技厅</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="widget">
+                        <h4 class="title">联系我们</h4>
+                        <div class="content tag-cloud friend-links">
+                            <p>联系电话：0551-63601558</p>
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="widget">
-                    <h4 class="title">联系我们</h4>
-                    <div class="content tag-cloud friend-links">
-                        <p>联系电话：0551-63601558</p>
-                        <hr>
-                    </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span>Copyright &copy; <a href="http://bigdata.ustc.edu.cn/">大数据分析与应用安徽省重点实验室</a></span>
                 </div>
             </div>
         </div>
     </div>
-</footer>
 
-<div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <span>Copyright &copy; <a href="http://bigdata.ustc.edu.cn/">大数据分析与应用安徽省重点实验室</a></span>
-            </div>
-        </div>
-    </div>
-</div>
-
-<a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
 
 
 </body>
+
 </html>
